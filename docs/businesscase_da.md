@@ -11,3 +11,5 @@ Tidskrævende kvalitetssikringsopgaver kan automatiseres.
 Gør det let at holde dokumentationen synkroniseret med applikationen.
 
 Automatiseret byg af søgbar dokumentations portal, for hver ny udgave af dokumentationen. 
+
+-
