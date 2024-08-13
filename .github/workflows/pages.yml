@@ -41,9 +41,6 @@ jobs:
         uses: actions/upload-pages-artifact@v3
 
   deploy:
-    environment:
-      name: github-pages-testing
-      url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
     environment: ${{ github.ref == 'refs/heads/main' && 'production' || 'testing' }}
@@ -51,3 +48,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref == 'refs/heads/main' && 'main' || 'testing' }}
+          folder: testing
