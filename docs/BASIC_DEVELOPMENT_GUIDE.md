@@ -8,21 +8,25 @@ By following these steps, you can develop locally or in a managed service like G
 
 ```mermaid
 flowchart LR
-
-subgraph Infrastructure
-P
-O
-S
-end
-
-subgraph Application
-BE
-FE
-end
-
-B(Browser)-->P(Reverse Proxy)-->FE(Frontend) & BE(Backend / API)
-FE--> BE -->S[(SQL Database)]
-BE & FE-->|metrics|O{{Observability}}
+ subgraph Infrastructure["Infrastructure"]
+        P("Reverse Proxy")
+        O{{"🔎  Observability"}}
+        S[("Storage")]
+        A("🛡️ Authentication")
+  end
+ subgraph Application["Application"]
+        BE("Backend / API")
+        FE("Frontend")
+  end
+    B(["👤 Browser"]) --> P
+    P --> FE & BE
+    FE <--> BE & A
+    BE --> S
+    BE -- metrics --> O
+    FE -- metrics --> O
+    style O color:#424242,fill:#FFE0B2
+    style A fill:#BBDEFB,color:#424242
+    style B stroke:#FFFFFF,fill:#C8E6C9,color:#424242
 
 
 ```
