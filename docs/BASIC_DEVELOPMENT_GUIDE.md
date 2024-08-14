@@ -9,7 +9,7 @@ By following these steps, you can develop locally or in a managed service like G
 ```mermaid
 flowchart LR
  subgraph Infrastructure["Infrastructure"]
-        P("Reverse Proxy")
+        P[["Reverse Proxy"]]
         O{{"🔎  Observability"}}
         S[("Storage")]
         A("🛡️ Authentication")
@@ -24,9 +24,14 @@ flowchart LR
     BE --> S
     BE -- metrics --> O
     FE -- metrics --> O
+    style P fill:#FFCDD2,color:#424242
     style O color:#424242,fill:#FFE0B2
+    style S fill:#FFF9C4,color:#424242
     style A fill:#BBDEFB,color:#424242
+    style BE fill:#00C853,color:#424242
+    style FE fill:#2962FF,color:#000000
     style B stroke:#FFFFFF,fill:#C8E6C9,color:#424242
+
 
 
 ```
