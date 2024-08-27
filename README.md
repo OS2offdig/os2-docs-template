@@ -1,14 +1,45 @@
 # Documentation template for OS2 projects
 
-## 🏗️ Getting started 
+## How to use this template for documenting your OS2 project
 
-This is a *bare-minimum* template to create a [Jekyll][Jekyll] site that:
+## 👷 Maintainers guide
 
-- uses the [Just the Docs][Just the Docs] theme;
-- can be built and published on [GitHub Pages][GitHub Pages];
-- can be built and previewed locally, and published on other platforms.
+*In OS2 projects the maintainer team is the group of individuals assigned to oversee the development, quality, and community engagement of the documentation project.*
 
-[Browse documentation][Just the Docs] to learn more about how to use this theme.
+#### Setup
+
+1. Start by [creating a documentation repository in your project, from this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template), including only the main branch.
+3. Configure a [publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages). The documentation site is now live!
+4. Edit and create `.md` [Markdown files](https://guides.github.com/features/mastering-markdown/) to add more content pages to your docs.
+
+#### Maintenance
+
+1. Use the repositorys built-in [issues feature](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) to manage all changes, task and suggestions for improvements.
+
+    - Organize your work in [Milestones](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/about-milestones)
+    - [Use task lists](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/about-task-lists) to break down larger documentation work into manageble pieces.
+    - [Assign labels](https://docs.github.com/en/issues/using-labels-and-milestones-to-track-work/managing-labels)  to prioritize and classify your issues and maintain an overview on what needs to be done.
+    - Document suggestions and improvements by [raising issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) and describing what needs to be fixed, describe the user stories and potential delivered values.
+
+2. Stay on top of proposed changes to the documentation by [reviewing and merging Pull Requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/about-pull-request-reviews) to your documentation repository,
+
+> [!TIP]
+>
+> ###### In doubt or stuck with a maintainer task?
+>
+> ###### Try [these Best Practice advice for maintaining collaborative, safe, and effective communities.](https://docs.github.com/en/communities)
+
+## 🧑‍🦰 Contributors Guide
+
+*Contributors to the documentation can be project managers, technical editors, developers and end-users.*
+
+1. Document suggestions and improvements by [raising issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-issues) and describing what needs to be fixed, describe the user stories and potential delivered values.
+2. Participate in issue discussions to help reach the correct resolutions. If you have the required knowledge about a part of the project, suggest yourself as an [assignee to the issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/assigning-issues-and-pull-requests-to-other-github-users#about-issue-and-pull-request-assignees).
+3. Collaborate on documentation branches with issues assigned to you by the maintainers.
+
+[Browse documentation][Just the Docs] to learn more about the templates features for formatting your documents
+
+Content guide:
 
 Documentation in OS2 products must follow the documentation criteria from the [Standard for Public Code](https://standard.publiccode.net/)
 
@@ -18,6 +49,7 @@ Documentation in OS2 products must follow the documentation criteria from the [S
 Following these criteria not only opens up our codebase and fosters collaboration and transparency, but also encourages more organizations to use and adapt our open source products.
 
 ## Contributing
+
 Feel free to contribute, suggest an issue or submit a pull request with your improvements to this template.
 
 ## Licensing and Attribution
