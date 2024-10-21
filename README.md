@@ -6,7 +6,7 @@
 
 *In OS2 projects the maintainer team is the group of individuals assigned to oversee the development, quality, and community engagement of the documentation project.*
 
-#### Setup
+# Setup
 
 1. Start by [creating a documentation repository in your project, from this template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template), including only the main branch.
 3. Configure a [publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages). The documentation site is now live!
