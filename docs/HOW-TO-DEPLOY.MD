@@ -14,10 +14,11 @@ This document will walk you through the process of deploying pre-built container
 
 ## 🖥 Single Host Deployment
 
-The single host deployment strategy provided by [OS2-PROJECTNAME] operates without redundancy. It lacks the capabilities to auto-scale or auto-heal and it is not suited for more complex multi-container applications.
+*The single host deployment strategy provided by **[OS2-PROJECTNAME]** operates without redundancy and lacks auto-scaling or auto-healing capabilities.*
 
-> [!CAUTION] Not Recommended for Production Use
-> ###### This strategy is a cost-effective solution for short-term, limited use systems such as simple Proof of Concepts (PoC) or test systems. While this option allows for a reduction in initial investment, it introduces a single point of failure in the deployment. This deployment strategy is NOT recommended in production systems unless a comprehensive risk assessment process has been conducted and the associated risks have been documented and accepted.
+> [!CAUTION] Not Recommended for Production Use 
+> ###### This deployment strategy can provide a cost-effective solution for short-term, manually operated, limited-use systems, such as simple Proof of Concepts (PoC) or non-critical applications. However, it presents various risks that could affect system stability and lead to increased operational costs.  
+> ###### Using this strategy for production systems requires the associated risks to be documented and accepted by the steering committee.
 
 
 ### ⬛ Manual deployment
