@@ -1,24 +1,22 @@
-# Documentation template for OS2 projects
+# OS2 Documentation Template
 
-## 🏗️ Getting started 
+This template helps you quickly set up documentation for your OS2 project.
 
-This is a *bare-minimum* template to create a [Jekyll][Jekyll] site that:
+## Quick Start
 
-- uses the [Just the Docs][Just the Docs] theme;
-- can be built and published on [GitHub Pages][GitHub Pages];
-- can be built and previewed locally, and published on other platforms.
+1. Click the green "Use this template" button above.
+2. Name your new repository and create it.
+3. Start with the `PROJECT_README_TEMPLATE.md` file and 
+4. Replace this Quick Start by renaming `PROJECT_README_TEMPLATE.md` to `README.md`:
+  
+5. Configure a [publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages). 
 
-[Browse documentation][Just the Docs] to learn more about how to use this theme.
+That's it! Your project documentation scafolding is now set up and your documentation site is now live!
 
-Documentation in OS2 products must follow the documentation criteria from the [Standard for Public Code](https://standard.publiccode.net/)
-
-1. [Document your codebase objectives](https://standard.publiccode.net/criteria/document-codebase-objectives.html)
-2. [Document the Code](https://standard.publiccode.net/criteria/document-the-code.html)
-
-Following these criteria not only opens up our codebase and fosters collaboration and transparency, but also encourages more organizations to use and adapt our open source products.
 
 ## Contributing
-Feel free to contribute, suggest an issue or submit a pull request with your improvements to this template.
+
+Feel free to contribute, to get started check out our [CONTRIBUTING.md](./CONTRIBUTING.md) guide
 
 ## Licensing and Attribution
 
