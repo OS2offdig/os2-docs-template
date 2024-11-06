@@ -21,18 +21,14 @@
 
 #### Architecture
 
-> Replace with a Brief introduction to the project's high-level architecture. Link to an ARCHITECTURE.MD diagram e.g. in mermaid syntax
+> Replace with a Brief introduction to the project's high-level architecture. Link to an ARCHITECTURE.MD diagram preferably in mermaid syntax.
 
 #### Key Features
 
 > Replace this with a brief explaination of the main features or functionalities of your project.]
 
-
-## :arrow_heading_down: Installation
-> Replace with Step-by-step instructions on how to install the codebase. 
-
-## ▶️ How to Run
-> Replace with clear, concise instructions on how to run and use the codebase.
+## ▶️ How to Install and Run
+> Replace with clear, concise instructions on how to install and run the codebase for development, test and production setups. Link to repositories containing deployment templates that automates deployment
 
 #### Examples
 
