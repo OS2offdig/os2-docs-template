@@ -1,4 +1,4 @@
-> [!WARNING] 
+> [!IMPORTANT] 
 > *Remove this section from your README.md after completing all setup tasks!*
 > - [ ] Click the green "Use this template" button above.
 > - [ ] Name your new repository and create it.
@@ -13,15 +13,15 @@
 # [Replace with Project Title]
 > Replace this subtitle section with a clear statement defining the mission and goals of your project in a few simple terms.
 
-[How It Works](#how-this-codebase-achieves-its-objectives) | [Project Architecture](#architecture) | [Installation](#installation) | [Usage](#usage) | [Contributing](#contributing) | [License](#license) | [Contact](#contact)
-
+[How It Works](#🧭-how-it-works) | [Architecture](#architecture) | [ How to Install and Run](#▶️-how-to-install-and-run)
 
 ## 🧭 How It Works
 > Replace with a brief, clear explanation of how the codebase works to achieve the stated mission objectives.
 
 #### Architecture
 
-> Replace with a Brief introduction to the project's high-level architecture. Link to an ARCHITECTURE.MD diagram preferably in mermaid syntax.
+> Replace with a Brief introduction to the project's high-level architecture. Link to the architecture documentation with a diagram preferably in mermaid syntax.
+[ARCHITECTURE.MD](./docs/ARCHITECTURE.MD)
 
 #### Key Features
 
