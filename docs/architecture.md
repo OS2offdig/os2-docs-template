@@ -1,4 +1,13 @@
-# Example Architecture diagram
+# Project Architecture
+
+> Replace this with a brief introduction to the architecture documentation
+
+
+[Architecture Diagram](#architecture-diagram) | [Components](#components) | [Data Flow](#data-flow) 
+
+
+## Architecture Diagram
+> Provide a high level architecture diagram in the [Mermaid](https://mermaid.js.org/intro/getting-started.html) format
 
 ```mermaid
 flowchart LR
@@ -7,8 +16,8 @@ flowchart LR
   end
  subgraph Backend["Backend"]
         B1("fa:fa-server API Gateway")
-        B2("fa:fa-cogs Microservice 1")
-        B3("fa:fa-cogs Microservice 2")
+        B2("fa:fa-cogs Service 1")
+        B3("fa:fa-cogs Service 2")
   end
  subgraph Storage["Storage"]
         C[("fa:fa-database Database")]
@@ -38,6 +47,27 @@ flowchart LR
     style Frontend fill:#FFDDC1,stroke:#FF7043,stroke-width:1px,color:#424242
     style Storage fill:#FFE0B2,color:#424242
     linkStyle 1 stroke:#616161
-
-
 ```
+
+## Components
+> Provide a brief explanation of the main components and their interactions as shown in the diagram <bove>
+
+### Frontend
+
+> Describe the frontend components and their roles in the system.
+
+### Backend
+
+> Detail the backend architecture including APIs and microservices.
+
+### Storage
+
+> Explain the storage solutions used and their configurations.
+
+### Infrastructure Services
+
+> List and describe additional services such as authentication and monitoring.
+
+## Data Flow
+
+> Illustrate how data moves through the system from input to output.
