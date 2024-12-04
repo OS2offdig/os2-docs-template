@@ -1,42 +1,41 @@
-# Documentation template for OS2 projects
+> [!IMPORTANT] 
+> *Remove this section from your README.md after completing all setup tasks!*
+> - [ ] Click the green "Use this template" button above.
+> - [ ] Name your new repository and create it.
+> - [ ] Replace all the grey placeholder texts with your project-specific information.
+> - [ ] Add any additional relevant Markdown documents to your documentation.
+> - [ ] Configure a [publishing source for GitHub Pages](https://help.github.com/en/articles/configuring-a-publishing-source-for-github-pages).
+> - [ ] **Remove this setup section from your README.md.**
+>
+> *That's it! You are now set up, and your documentation site is live!*
 
-## 🏗️ Getting started 
 
-This is a *bare-minimum* template to create a [Jekyll][Jekyll] site that:
+# [Replace with Project Title]
+> Replace this subtitle section with a clear statement defining the mission and goals of your project in a few simple terms.
 
-- uses the [Just the Docs][Just the Docs] theme;
-- can be built and published on [GitHub Pages][GitHub Pages];
-- can be built and previewed locally, and published on other platforms.
+[How It Works](#🧭-how-it-works) | [Architecture](#architecture) | [ How to Install and Run](#▶️-how-to-install-and-run)
 
-[Browse documentation][Just the Docs] to learn more about how to use this theme.
+## 🧭 How It Works
+> Replace with a brief, clear explanation of how the codebase works to achieve the stated mission objectives.
 
-Documentation in OS2 products must follow the documentation criteria from the [Standard for Public Code](https://standard.publiccode.net/)
+#### Architecture
 
-1. [Document your codebase objectives](https://standard.publiccode.net/criteria/document-codebase-objectives.html)
-2. [Document the Code](https://standard.publiccode.net/criteria/document-the-code.html)
+> Replace with a Brief introduction to the project's high-level architecture. Link to the architecture documentation with a diagram preferably in mermaid syntax.
+[ARCHITECTURE.MD](./docs/ARCHITECTURE.MD)
 
-Following these criteria not only opens up our codebase and fosters collaboration and transparency, but also encourages more organizations to use and adapt our open source products.
+#### Key Features
 
-## Contributing
-Feel free to contribute, suggest an issue or submit a pull request with your improvements to this template.
+> Replace this with a brief explaination of the main features or functionalities of your project.]
 
-## Licensing and Attribution
+## ▶️ How to Install and Run
+> Replace with clear, concise instructions on how to install and run the codebase for development, test and production setups. Link to repositories containing deployment templates that automates deployment
 
-This repository is licensed under the [MIT License][MIT License]. You are generally free to reuse or extend upon this code as you see fit; just include the original copy of the license (which is preserved when you "make a template"). While it's not necessary, we'd love to hear from you if you do use this template, and how we can improve it for future use!
+#### Examples
 
-The deployment GitHub Actions workflow is heavily based on GitHub's mixed-party [starter workflows][starter workflows]. A copy of their MIT License is available in [actions/starter-workflows][actions/starter-workflows].
+> Replace with examples demonstrating key functionality, code-snippets such as command-line usage, API calls or if needed screendumps
 
 ---
 
-[Jekyll]: https://jekyllrb.com
-[Just the Docs]: https://just-the-docs.github.io/just-the-docs/
-[GitHub Pages]: https://docs.github.com/en/pages
-[GitHub Pages / Actions workflow]: https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/
-[Bundler]: https://bundler.io
-[use this template]: https://github.com/just-the-docs/just-the-docs-template/generate
-[`jekyll-default-layout`]: https://github.com/benbalter/jekyll-default-layout
-[`jekyll-seo-tag`]: https://jekyll.github.io/jekyll-seo-tag
-[MIT License]: https://en.wikipedia.org/wiki/MIT_License
-[starter workflows]: https://github.com/actions/starter-workflows/blob/main/pages/jekyll.yml
-[actions/starter-workflows]: https://github.com/actions/starter-workflows/blob/main/LICENSE
-[^1]: [It can take up to 10 minutes for changes to your site to publish after you push the changes to GitHub](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-your-site).
+*This project is licensed under the terms of the [LICENSE.md](LICENSE.md) | For contribution guidelines, see [CONTRIBUTING.md](CONTRIBUTING.md) | Contact: [maintainer usernames]()*
+
+
