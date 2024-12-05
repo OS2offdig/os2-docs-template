@@ -25,12 +25,20 @@
 
 #### Key Features
 
-> Replace this with a brief explaination of the main features or functionalities of your project.]
+> Replace this with a brief explaination of the main features or functionalities of your project.
 
 ## ▶️ How to Install and Run
 > Replace with clear, concise instructions on how to install and run the codebase for development, test and production setups. Link to repositories containing deployment templates that automates deployment
 
-#### Examples
+#### Setting up a development enviroment
+> Describe how to get a development enviroment up and running
+
+#### Deploying to production
+> Describe the different deployment methods for the project. Please adhere to the deployment standards recommended by OS2 when describing how to get the project running in production.
+
+#### 
+
+## :star: Examples
 
 > Replace with examples demonstrating key functionality, code-snippets such as command-line usage, API calls or if needed screendumps
 
